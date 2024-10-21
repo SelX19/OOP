@@ -13,6 +13,7 @@ public class DataStructures2 {
         this.taskItemDao = taskItemDao;
     }
 
+
     // Fetch all tasks from the database:
     public List<ex1_TaskItem> getAllTasks() {
         return taskItemDao.getAllTasks();
