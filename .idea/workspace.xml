@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="lab2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="mybranch" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SelX19&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SelX19/OOP.git&quot;,
+    &quot;accountId&quot;: &quot;fe7ebe40-90a6-48ee-911f-d4ab276a6127&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2nOExnw1kjSdt57JtmPq1K1JkmK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DataStructures.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataStructures2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex10_guess_game.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex1_is_prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex1_prinitng_name.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex2_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex2_printing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex3_counting_seconds_in_a_year.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex4_numbers_in_between.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex4_user_input_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex5_is_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex5_sum_of_powers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex6_comparision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex6_print_text_n_times.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex7_stars_piramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex8_inverted_piramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex9_numbers_piramid.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="" />
+      <created>1728835973006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728835973006</updated>
+      <workItem from="1728991831927" duration="142000" />
+      <workItem from="1728992005732" duration="29000" />
+      <workItem from="1728995066534" duration="26000" />
+      <workItem from="1728995123078" duration="341000" />
+      <workItem from="1728996412140" duration="106000" />
+      <workItem from="1728996574051" duration="666000" />
+      <workItem from="1729010722897" duration="7036000" />
+      <workItem from="1729018085034" duration="4000" />
+      <workItem from="1729018619402" duration="2122000" />
+      <workItem from="1729069475033" duration="3420000" />
+      <workItem from="1729073013186" duration="289000" />
+      <workItem from="1729073305894" duration="5000" />
+      <workItem from="1729086040756" duration="2883000" />
+      <workItem from="1729178259717" duration="87000" />
+      <workItem from="1729431854752" duration="8361000" />
+      <workItem from="1729458131833" duration="197000" />
+      <workItem from="1729458330790" duration="351000" />
+      <workItem from="1729459119683" duration="3000" />
+    </task>
+    <task id="LOCAL-00001" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1728981414271</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728981414271</updated>
+    </task>
+    <task id="LOCAL-00002" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1729458010991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729458010991</updated>
+    </task>
+    <task id="LOCAL-00003" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1729458250537</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729458250537</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1729458363483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729458363483</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/weeek3/TaskItemDao.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
