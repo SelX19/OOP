@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DbConnect {
-    private static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/oop_lab3";
+    private static final String CONNECTION_STRING = "jdbc:mysql://localhost:3306/lab3";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "LMXsel357";
+    private static final String PASSWORD = "12345";
 
     private Connection connection = null;
 
