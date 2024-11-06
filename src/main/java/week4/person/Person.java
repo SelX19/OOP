@@ -4,6 +4,8 @@ public class Person {
 
     private String name;
     private String address;
+    private int age;
+    private String country;
 
     public Person(String name, String address){
         this.name=name;
@@ -16,6 +18,22 @@ public class Person {
 
     public String getAddress() {
         return address;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
     }
 
     public String toString(){

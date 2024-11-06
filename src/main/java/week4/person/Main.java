@@ -20,4 +20,8 @@ public class Main {
         //P.S.:credits for a student not printed out, since we were printing them so far separately using System.out.println, and not by changing toString method to contain it
     }
 
+    Circle circle = new Circle(2.4, "orange", FillType.FILLED);
+    Rectangle rectangle = new Rectangle(15, 30, "yellow", FillType.NOT_FILLED);
+
+
 }
