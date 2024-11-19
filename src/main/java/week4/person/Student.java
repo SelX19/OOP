@@ -35,7 +35,7 @@ public class Student extends Person{
     }
 
     public void addGrade(Grades grade) {
-        for(Grades grade:grades){
+        for(Grades GR:grades){
             grades.add(grade);
         }
     }

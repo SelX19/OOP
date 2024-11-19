@@ -16,21 +16,18 @@ public class TaskItemDao {
     }
 
     //fetch all task entities from a db:
-    public List<ex1_TaskItem> getAllTasks(){
-        List<ex1_TaskItem> tasks = new ArrayList<ex1_TaskItem>();
-
-        String query = "SELECT * FROM tasks";
-        try{
-            Statement statement = connection.createStatement();
-            ResultSet resultSet = statement.executeQuery(query);
-            while(resultSet.next()){
-                int id = resultSet.getInt("task_id");
+    public List<ex1_TaskItem> getAllTasks() {
+        List<ex1_TaskItem> tasks = new ArrayList<>();
+        String query = "SELECT * FROM tasks"; // Ensure table and column names are correct
+        try (Statement statement = connection.createStatement();
+             ResultSet resultSet = statement.executeQuery(query)) {
+            while (resultSet.next()) {
+                int id = resultSet.getInt("task_id"); // Update with actual column name
                 String description = resultSet.getString("task_description");
                 TaskStatus status = TaskStatus.valueOf(resultSet.getString("task_status"));
                 tasks.add(new ex1_TaskItem(id, description, status));
             }
-        }
-        catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return tasks;
@@ -41,36 +38,46 @@ public class TaskItemDao {
     //return type is now just from a TaskItem class, not a list, just one task
     //taking id as a parameter
 
-    public ex1_TaskItem getTaskById(int id){
+    public ex1_TaskItem getTaskById(int id) {
         ex1_TaskItem task = null;
 
+        // Verify the column name matches your database structure
         String query = "SELECT * FROM tasks WHERE task_id = ?";
-        //we will set prepared statement immediately as a parameter of a try block
-        try(PreparedStatement statement = connection.prepareStatement(query)){
+        try (PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setInt(1, id);
-            try(ResultSet rs = statement.executeQuery()){
-                if(rs.next()){
+            try (ResultSet rs = statement.executeQuery()) {
+                if (rs.next()) {
                     String description = rs.getString("task_description");
-                    TaskStatus status = TaskStatus.valueOf(rs.getString("task_status"));
+
+                    // Use uppercase for matching enum values
+                    String statusValue = rs.getString("task_status").toUpperCase();
+                    TaskStatus status;
+                    try {
+                        status = TaskStatus.valueOf(statusValue);
+                    } catch (IllegalArgumentException e) {
+                        // Handle unexpected status values (optional)
+                        e.printStackTrace();
+                        status = TaskStatus.TO_DO; // Default status or handle as required
+                    }
+
                     task = new ex1_TaskItem(id, description, status);
                 }
             }
-        }
-        catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
         return task;
     }
 
+
     //create a new task:
-    public void createTask(ex1_TaskItem task){
-        String query = "INSERT INTO tasks (task_description, task_status) VALUES (?, ?)";
-        try(PreparedStatement statement = connection.prepareStatement(query)){
+    public void createTask(ex1_TaskItem task) {
+        String query = "INSERT INTO tasks (task_description, task_status) VALUES (?, ?)"; // Use auto-increment ID
+        try (PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setString(1, task.getTaskDescription());
             statement.setString(2, task.getTaskStatus().name());
             statement.executeUpdate();
-        }
-        catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
     }
