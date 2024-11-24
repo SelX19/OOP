@@ -5,30 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="lab2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week6/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week6/Methods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/Billable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/CuisineType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/Dish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/Drink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep/TableReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/Honey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/HoneyType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/MainRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/Milk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week8_mid_prep2/Sellable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weeek3/DbConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weeek3/DbConnect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weeek3/TaskItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weeek3/TaskItemDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week4/person/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week4/person/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,49 +52,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DataStructures.executor": "Run",
-    "Application.DataStructures2.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainApplication.executor": "Run",
-    "Application.MainRun.executor": "Run",
-    "Application.Methods.executor": "Run",
-    "Application.Person.executor": "Run",
-    "Application.Student.executor": "Run",
-    "Application.Teacher.executor": "Run",
-    "Application.ex10_guess_game.executor": "Run",
-    "Application.ex1_is_prime.executor": "Run",
-    "Application.ex1_prinitng_name.executor": "Run",
-    "Application.ex2_calculator.executor": "Run",
-    "Application.ex2_printing.executor": "Run",
-    "Application.ex3_counting_seconds_in_a_year.executor": "Run",
-    "Application.ex4_numbers_in_between.executor": "Run",
-    "Application.ex4_user_input_sum.executor": "Run",
-    "Application.ex5_is_positive.executor": "Run",
-    "Application.ex5_sum_of_powers.executor": "Run",
-    "Application.ex6_comparision.executor": "Run",
-    "Application.ex6_print_text_n_times.executor": "Run",
-    "Application.ex7_stars_piramid.executor": "Run",
-    "Application.ex8_inverted_piramid.executor": "Run",
-    "Application.ex9_numbers_piramid.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DataStructures.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataStructures2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex10_guess_game.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex1_is_prime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex1_prinitng_name.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex2_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex2_printing.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex3_counting_seconds_in_a_year.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex4_numbers_in_between.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex4_user_input_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex5_is_positive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex5_sum_of_powers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex6_comparision.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex6_print_text_n_times.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex7_stars_piramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex8_inverted_piramid.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex9_numbers_piramid.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -184,6 +161,11 @@
       <workItem from="1731869223734" duration="11542000" />
       <workItem from="1731954293209" duration="5832000" />
       <workItem from="1732008641730" duration="9465000" />
+      <workItem from="1732018288962" duration="614000" />
+      <workItem from="1732019003903" duration="248000" />
+      <workItem from="1732024436336" duration="310000" />
+      <workItem from="1732474809634" duration="613000" />
+      <workItem from="1732480552068" duration="309000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <option name="closed" value="true" />
@@ -233,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730667855215</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lab2">
+      <option name="closed" value="true" />
+      <created>1732018310498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1732018310498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
