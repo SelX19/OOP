@@ -4,8 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="lab2">
+    <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="feat: implemented a new class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/AdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/CanSendMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/MessagingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/RegularUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/RequiresPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/UserPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task2/GradeAnalyzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task2/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task3/Events.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task3/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task4/GenreFilterIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task4/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week11/EmptyStudentListException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week11/InvalidStudentDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week11/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week11/StudentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week11/StudentSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week11/StudentsData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week7/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week11/StudentSystemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week1/ex5_is_positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/ex5_is_positive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week7/Empty.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +42,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="package-info" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -47,7 +77,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2nOExnw1kjSdt57JtmPq1K1JkmK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -58,9 +90,12 @@
     &quot;Application.DataStructures2.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
     &quot;Application.MainRun.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MessagingSystem.executor&quot;: &quot;Run&quot;,
     &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
     &quot;Application.Person.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Start.executor&quot;: &quot;Run&quot;,
     &quot;Application.Student.executor&quot;: &quot;Run&quot;,
     &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
     &quot;Application.ex10_guess_game.executor&quot;: &quot;Run&quot;,
@@ -81,6 +116,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -91,10 +128,21 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/week11" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="week11" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -105,8 +153,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
       </set>
     </attachedChunks>
   </component>
@@ -165,7 +213,15 @@
       <workItem from="1732019003903" duration="248000" />
       <workItem from="1732024436336" duration="310000" />
       <workItem from="1732474809634" duration="613000" />
-      <workItem from="1732480552068" duration="309000" />
+      <workItem from="1732480552068" duration="2040000" />
+      <workItem from="1733076280871" duration="1822000" />
+      <workItem from="1733078129975" duration="1547000" />
+      <workItem from="1733150618291" duration="143000" />
+      <workItem from="1733150798011" duration="2659000" />
+      <workItem from="1734193522025" duration="5973000" />
+      <workItem from="1734252985298" duration="18545000" />
+      <workItem from="1734472994132" duration="4144000" />
+      <workItem from="1734523500794" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <option name="closed" value="true" />
@@ -223,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732018310498</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit message">
+      <option name="closed" value="true" />
+      <created>1732480901810</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732480901810</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: implemented a new class">
+      <option name="closed" value="true" />
+      <created>1732480966950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732480966950</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +314,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab2" />
+    <MESSAGE value="commit message" />
+    <MESSAGE value="feat: implemented a new class" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implemented a new class" />
   </component>
 </project>

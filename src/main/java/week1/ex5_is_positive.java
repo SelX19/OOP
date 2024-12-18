@@ -22,5 +22,6 @@ public class ex5_is_positive {
             System.out.println("Number " + number + " is not positive. It is negative.");
         }
 
+
     }
 }
