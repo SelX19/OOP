@@ -5,34 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="feat: implemented a new class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/AdminUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/CanSendMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/MessagingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/RegularUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/RequiresPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task1/UserPermission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task2/GradeAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task2/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task2/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task3/Events.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task3/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task4/GenreFilterIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week10/task4/Song.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week11/EmptyStudentListException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week11/InvalidStudentDataException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week11/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week11/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week11/StudentNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week11/StudentSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week11/StudentsData.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week7/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/week11/StudentSystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week12/ChatApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week12/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week12/ChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week1/ex5_is_positive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week1/ex5_is_positive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week7/Empty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week11/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +23,8 @@
         <option value="AnnotationType" />
         <option value="package-info" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,6 +50,9 @@
     &quot;accountId&quot;: &quot;fe7ebe40-90a6-48ee-911f-d4ab276a6127&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -84,54 +64,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.DataStructures.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataStructures2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainRun.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MessagingSystem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Start.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Student.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Teacher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex10_guess_game.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex1_is_prime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex1_prinitng_name.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex2_calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex2_printing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex3_counting_seconds_in_a_year.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex4_numbers_in_between.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex4_user_input_sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex5_is_positive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex5_sum_of_powers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex6_comparision.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex6_print_text_n_times.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex7_stars_piramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex8_inverted_piramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ex9_numbers_piramid.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ChatClient.executor": "Run",
+    "Application.DataStructures.executor": "Run",
+    "Application.DataStructures2.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MainApplication.executor": "Run",
+    "Application.MainClass.executor": "Run",
+    "Application.MainRun.executor": "Run",
+    "Application.MessagingSystem.executor": "Run",
+    "Application.Methods.executor": "Run",
+    "Application.Person.executor": "Run",
+    "Application.Start.executor": "Run",
+    "Application.Student.executor": "Run",
+    "Application.Teacher.executor": "Run",
+    "Application.ex10_guess_game.executor": "Run",
+    "Application.ex1_is_prime.executor": "Run",
+    "Application.ex1_prinitng_name.executor": "Run",
+    "Application.ex2_calculator.executor": "Run",
+    "Application.ex2_printing.executor": "Run",
+    "Application.ex3_counting_seconds_in_a_year.executor": "Run",
+    "Application.ex4_numbers_in_between.executor": "Run",
+    "Application.ex4_user_input_sum.executor": "Run",
+    "Application.ex5_is_positive.executor": "Run",
+    "Application.ex5_sum_of_powers.executor": "Run",
+    "Application.ex6_comparision.executor": "Run",
+    "Application.ex6_print_text_n_times.executor": "Run",
+    "Application.ex7_stars_piramid.executor": "Run",
+    "Application.ex8_inverted_piramid.executor": "Run",
+    "Application.ex9_numbers_piramid.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/week11" />
@@ -221,7 +202,12 @@
       <workItem from="1734193522025" duration="5973000" />
       <workItem from="1734252985298" duration="18545000" />
       <workItem from="1734472994132" duration="4144000" />
-      <workItem from="1734523500794" duration="1392000" />
+      <workItem from="1734523500794" duration="2465000" />
+      <workItem from="1734776582709" duration="1000" />
+      <workItem from="1735821067093" duration="944000" />
+      <workItem from="1735830107926" duration="14000" />
+      <workItem from="1735833373446" duration="6688000" />
+      <workItem from="1735847186894" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <option name="closed" value="true" />
@@ -295,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732480966950</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: implemented a new class">
+      <option name="closed" value="true" />
+      <created>1734526179086</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734526179086</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,5 +311,16 @@
     <MESSAGE value="commit message" />
     <MESSAGE value="feat: implemented a new class" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: implemented a new class" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/week12/ChatServer.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

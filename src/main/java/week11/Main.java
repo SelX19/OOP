@@ -3,7 +3,7 @@ package week11;
 import java.io.IOException;
 import java.util.Optional;
 
-public class Main {
+public class Main{
     public static void main(String[]args){
         try{
             //loading data from the csv file
@@ -27,9 +27,7 @@ public class Main {
             System.out.println("Student with longest name: " + system.getStudentWithLongestName());
 
         }
-        catch(IOException | InvalidStudentDataException e){
-            throw new IOException(e);
-        } catch(EmptyStudentListException e){
+        catch(EmptyStudentListException e){
             System.out.println(e.getMessage());
         }
     }
