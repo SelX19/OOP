@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="feat: implemented a new class" />
+    <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="feat: implemented a new class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task1/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/PayPalPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/PaymentFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/CamelCaseFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/LowerCaseFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/TextFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/UpperCaseFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/ClientCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/DeviceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/NewDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/NewDeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/OldDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/OldDeviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/GreenLightState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/RedLightState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/TrafficLightContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/TrafficLightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/TrafficLightState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/YellowLightState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CappuccinoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CoffeeBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CoffeeDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CoffeeOrderingSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/EspressoBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/LatteBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,11 +47,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="AnnotationType" />
         <option value="package-info" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -61,6 +95,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ChatClient.executor": "Run",
+    "Application.ClientCode.executor": "Run",
+    "Application.CoffeeOrderingSystem.executor": "Run",
     "Application.DataStructures.executor": "Run",
     "Application.DataStructures2.executor": "Run",
     "Application.Main.executor": "Run",
@@ -73,6 +109,7 @@
     "Application.Start.executor": "Run",
     "Application.Student.executor": "Run",
     "Application.Teacher.executor": "Run",
+    "Application.TrafficLightController.executor": "Run",
     "Application.ex10_guess_game.executor": "Run",
     "Application.ex1_is_prime.executor": "Run",
     "Application.ex1_prinitng_name.executor": "Run",
@@ -202,6 +239,10 @@
       <workItem from="1735830107926" duration="14000" />
       <workItem from="1735833373446" duration="6688000" />
       <workItem from="1735847186894" duration="458000" />
+      <workItem from="1735847696447" duration="26000" />
+      <workItem from="1735847724925" duration="1083000" />
+      <workItem from="1735919705074" duration="6026000" />
+      <workItem from="1735979203030" duration="4382000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <option name="closed" value="true" />
@@ -291,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735847438672</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: implemented a new class">
+      <option name="closed" value="true" />
+      <created>1735847701460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735847701461</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
