@@ -1,0 +1,4 @@
+invoiceDate;invoiceNumber;qtr;year;customerName;totalAmount;taxAmount;netAmount
+6/3/2022;123456;4;2022;Samir;5000.00;1000.00;6000.00
+6/10/2023;379218;3;2023;Anes;3000.00;2000.00;5000.00
+6/7/2024;672942;2;2024;Lejla;7000.00;3000.00;9000.00

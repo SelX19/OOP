@@ -5,38 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081941d2-7fda-4634-b363-a8506984e6ee" name="Changes" comment="feat: implemented a new class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task1/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/PayPalPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task2/PaymentFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/CamelCaseFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/LowerCaseFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/TextEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/TextFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task3/UpperCaseFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/ClientCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/DeviceAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/NewDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/NewDeviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/OldDevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task4/OldDeviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/GreenLightState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/RedLightState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/TrafficLightContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/TrafficLightController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/TrafficLightState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task5/YellowLightState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CappuccinoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CoffeeBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CoffeeDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/CoffeeOrderingSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/EspressoBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/week13/Task6/LatteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/CaseFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/FinalPrep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/MainRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/NumberFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/ReportWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/WriteConcerns.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/BookDataTransformation/WrongFormatException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/CSVReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/CurrencyFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/FieldFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/InvalidInvoiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/InvoiceProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/MainRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/InvoiceManagement/TextFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/ArtsBookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/AvailabilityStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/BookCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/BookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/FictionBookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/FieldValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/HistoryBookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/InvalidBookException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/LibraryLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/LibraryReportGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/NonFictionBookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/ScienceBookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/LibraryManagementSystem/TechnologyBookFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/FieldFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/InvalidMovieDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/MainRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/MovieLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/NumberFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/ReportWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/week15_mid_prep/MovieDataTransformation/TextFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/books.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/examprep.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/movies.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week15_mid_prep/InvoiceManagement/InvoiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/week15_mid_prep/MovieDataTransformation/MovieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/books_with_empty_values.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/invoices.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/invoices_with_empty_fields.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/movies_test_empty_fields" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/moviestest.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/mybooks.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testBooks.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testInvalidData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testMissingFields.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +70,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="AnnotationType" />
         <option value="package-info" />
         <option value="Enum" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Exception" />
+        <option value="AnnotationType" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -125,6 +149,10 @@
     "Application.ex7_stars_piramid.executor": "Run",
     "Application.ex8_inverted_piramid.executor": "Run",
     "Application.ex9_numbers_piramid.executor": "Run",
+    "JUnit.BookTest.executor": "Run",
+    "JUnit.InvoiceTest.executor": "Run",
+    "JUnit.LibraryTest.executor": "Run",
+    "JUnit.MovieTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -132,6 +160,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/selmadjozic/IdeaProjects/OOP_labss/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -145,13 +174,20 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/week11" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="week15_mid_prep.MovieDataTransformation" />
+      <recent name="week15_mid_prep.InvoiceManagement" />
       <recent name="week11" />
     </key>
   </component>
@@ -242,7 +278,18 @@
       <workItem from="1735847696447" duration="26000" />
       <workItem from="1735847724925" duration="1083000" />
       <workItem from="1735919705074" duration="6026000" />
-      <workItem from="1735979203030" duration="4382000" />
+      <workItem from="1735979203030" duration="4433000" />
+      <workItem from="1736242468354" duration="1478000" />
+      <workItem from="1737038133481" duration="16510000" />
+      <workItem from="1737061100800" duration="12000" />
+      <workItem from="1737061125005" duration="1274000" />
+      <workItem from="1737138700022" duration="10700000" />
+      <workItem from="1737216053472" duration="4202000" />
+      <workItem from="1737220598580" duration="6000" />
+      <workItem from="1737282924713" duration="10296000" />
+      <workItem from="1737295396729" duration="606000" />
+      <workItem from="1737371804095" duration="6712000" />
+      <workItem from="1737387335820" duration="4871000" />
     </task>
     <task id="LOCAL-00001" summary="lab2">
       <option name="closed" value="true" />
@@ -340,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735847701461</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: implemented a new class">
+      <option name="closed" value="true" />
+      <created>1735983633382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735983633382</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +426,10 @@
           <line>107</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
