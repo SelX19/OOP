@@ -1,8 +1,8 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import week15_mid_prep.BookDataTransformation.Book;
-import week15_mid_prep.BookDataTransformation.FinalPrep;
-import week15_mid_prep.BookDataTransformation.WrongFormatException;
+import week15_final_prep.BookDataTransformation.Book;
+import week15_final_prep.BookDataTransformation.FinalPrep;
+import week15_final_prep.BookDataTransformation.WrongFormatException;
 
 import java.io.FileNotFoundException;
 import java.util.List;
